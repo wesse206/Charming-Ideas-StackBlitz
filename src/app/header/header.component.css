@@ -1,3 +1,33 @@
 .ci-navbar {
-  color: #201434;
+  background-color: #201434;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 375px) {
+  .ci-logo {
+    height: 250;
+    padding: 10 10 10 30;
+  }
+}
+
+@media (min-width: 768px) {
+  .ci-logo {
+    height: 150;
+    padding: 10 10 10 30;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ci-logo {
+    height: 100;
+    padding: 10 10 10 30;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ci-logo {
+    height: 125;
+    padding: 10 10 10 30;
+  }
 }
