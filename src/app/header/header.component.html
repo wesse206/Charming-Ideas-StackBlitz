@@ -1,4 +1,33 @@
 <div class="ci-navbar">
-  <img src="assets/white-charming-ideas.webp" alt="Charming-Ideas Logo" class="ci-logo" />
-  <h1>Hello world</h1>
+  <img
+    src="assets/white-charming-ideas.webp"
+    alt="Charming-Ideas Logo"
+    class="ci-logo"
+  />
+  <div class="ci-menu">
+    <ul routerLink="" class="ci-menu-item">
+      HOME
+    </ul>
+    <ul routerLink="shop" class="ci-menu-item">
+      SHOP
+    </ul>
+    <ul #about_nav class="ci-menu-item">
+      ABOUT
+    </ul>
+    <ul #contact_nav class="ci-menu-item">
+      CONTACT
+    </ul>
+  </div>
+  <div class="ci-hamburger-menu">
+    <input id="ci-hamburger-toggle" type="checkbox" />
+    <label class="ci-hamburger-button-container" for="ci-hamburger-toggle">
+      <div class="ci-hamburger-button"></div>
+    </label>
+    <ul class="ci-hamburger">
+      <li>Home</li>
+      <li>Shop</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
 </div>
